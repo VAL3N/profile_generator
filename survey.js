@@ -37,7 +37,7 @@ rl.question('What\'s your name? Nicknames are also acceptable : ', (answer) => {
             console.log(`That's awesome! I love playing ${answer} as well.`);
             user['sport'] = answer;
 
-            rl.question('What is your superpower? In a few words, tell us what you are amazing at! ', (answer) => {
+            rl.question('What is your superpower? Tell us what you are amazing at! ', (answer) => {
               // TODO: Log the answer in a database
               console.log(`Oh wow! Did you really say ${answer}?? That's crazy!`);
               user['superPower'] = answer;
